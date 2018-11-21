@@ -1,0 +1,50 @@
+{
+  "_id": "page.name-and-experience",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.name-and-experience--text.input_auto__1",
+      "_type": "text",
+      "label": "Enter your full name",
+      "name": "input_auto__1"
+    },
+    {
+      "_id": "page.name-and-experience--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.name-and-experience--checkboxes--checkbox.input_auto__2",
+          "_type": "checkbox",
+          "label": "Ruby",
+          "name": "input_auto__2"
+        },
+        {
+          "_id": "page.name-and-experience--checkboxes--checkbox.input_auto__3",
+          "_type": "checkbox",
+          "label": "Python",
+          "name": "input_auto__3"
+        },
+        {
+          "_id": "page.name-and-experience--checkboxes--checkbox.input_auto__4",
+          "_type": "checkbox",
+          "label": "PHP",
+          "name": "input_auto__4"
+        },
+        {
+          "_id": "page.name-and-experience--checkboxes--checkbox.input_auto__5",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.name-and-experience--checkboxes--checkbox.input_auto__5--text.input_auto__6",
+            "_type": "text",
+            "name": "input_auto__6"
+          },
+          "label": "Other",
+          "name": "input_auto__5"
+        }
+      ],
+      "legend": "What languages do you know?"
+    }
+  ],
+  "heading": "A little bit about yourself",
+  "url": "name-and-experience"
+}

@@ -1,7 +1,11 @@
 {
   "_id": "service",
   "_type": "config.service",
+  "code": "MOJ-REC100",
+  "emailInputNameTeam": "stephen.richards@digital.justice.gov.uk",
+  "emailSubjectTeam": "New recruits!",
+  "emailTemplateTeam": "A new user has applied on-line",
   "name": "Service name goes here",
   "phase": "alpha",
-  "phaseText": "Service phase text goes here"
+  "phaseText": "ALPHA"
 }

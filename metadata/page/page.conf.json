@@ -1,0 +1,7 @@
+{
+  "_id": "page.conf",
+  "_type": "page.confirmation",
+  "body": "Your details have been recorded and passed to our recruitment team....",
+  "lede": "Thank you for sending your details",
+  "url": "conf"
+}
